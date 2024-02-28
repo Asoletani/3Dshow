@@ -60,8 +60,6 @@ body {
 }
 .box1:hover .char2 {
   opacity: 2;
-  /* transform: translate3d(0%, -6%, -100px); */
-  /* animation: faceCard 1s infinite reverse; */
 }
 .box2 {
   width: 405px;
@@ -92,14 +90,4 @@ body {
 }
 .box2:hover .char2 {
   opacity: 1;
-  /* transform: translate3d(0%, -6%, -100px); */
-  /* animation: faceCard 1s infinite reverse; */
 }
-/*@keyframes faceCard {
-  from {
-    transform: translate3d(0%, -6%, -100px);
-    transform: skew(0deg, 10deg);
-  }
-  to {
-    transform: translate3d(0%, -0%, -100px);
-    /* transform: skew(0deg, 0deg); */
