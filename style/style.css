@@ -83,3 +83,8 @@ body {
   bottom: 0px;
   right: 0;
 }
+.box2:hover .char2 {
+  opacity: 1;
+  /* transform: translate3d(0%, -6%, -100px); */
+  /* animation: faceCard 1s infinite reverse; */
+}
