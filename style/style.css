@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 body {
   width: 100%;
@@ -21,6 +21,13 @@ body {
   justify-content: center;
   align-items: end;
   cursor: pointer;
+}
+
+.pic1 {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 .char1 {
   width: 100%;
@@ -88,3 +95,11 @@ body {
   /* transform: translate3d(0%, -6%, -100px); */
   /* animation: faceCard 1s infinite reverse; */
 }
+/*@keyframes faceCard {
+  from {
+    transform: translate3d(0%, -6%, -100px);
+    transform: skew(0deg, 10deg);
+  }
+  to {
+    transform: translate3d(0%, -0%, -100px);
+    /* transform: skew(0deg, 0deg); */
