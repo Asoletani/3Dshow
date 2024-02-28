@@ -12,3 +12,13 @@ body {
   background-color: rgba(5, 10, 31, 1);
   gap: 10rem;
 }
+
+.box1 {
+  width: 263px;
+  height: 412px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  cursor: pointer;
+}
