@@ -27,3 +27,10 @@ body {
   height: auto;
 }
 
+.char2 {
+  width: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+  transition: all 2s;
+}
